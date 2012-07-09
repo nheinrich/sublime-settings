@@ -1,4 +1,50 @@
 {
-	"font_size": 12.0,
-	"theme": "Soda Dark.sublime-theme"
+  // Valid values are "smooth", "phase", "blink", "wide" and "solid".
+  "caret_style": "smooth",
+  "open_files_in_new_window": true,
+  "create_window_at_startup": false,
+	"draw_indent_guides": true,
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		".bundle",
+		".gitkeep"
+	],
+	"font_size": 13.0,
+	"font_options": [
+		"subpixel_antialias"
+	],
+	"highlight_line": true,
+	"match_brackets": true,
+	"spell_check": false,
+	"tab_size": 2,
+  "use_tab_stops": true,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "auto",
+  "binary_file_patterns": [
+  	"*.log",
+  	"*.jpg",
+  	"*.jpeg",
+  	"*.png",
+  	"*.gif",
+  	"*.ttf",
+  	"*.tga",
+  	"*.dds",
+  	"*.ico",
+  	"*.eot",
+  	"*.pdf",
+  	"*.swf",
+  	"*.jar",
+  	"*.zip",
+    "*.sublime-project",
+    "*.sublime-workspace"
+  ]
 }
